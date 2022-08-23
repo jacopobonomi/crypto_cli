@@ -1,0 +1,21 @@
+{
+  "name": "crypto_cli",
+  "version": "1.0.0",
+  "description": "A simple command to see price of cryptocurrency",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --experimental-modules -r dotenv/config index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bonomi Jacopo",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "chalk": "^5.0.1",
+    "chalk-animation": "^2.0.2",
+    "dotenv": "^16.0.1",
+    "esm": "^3.2.25",
+    "terminal-link": "^3.0.0"
+  }
+}
